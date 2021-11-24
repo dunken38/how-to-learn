@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 /*Первая секция - Научиться учиться*/
@@ -65,7 +65,7 @@
   width: 765px;
   height: 608px;
   bottom: 0;
-  right: 0; 
+  right: 0;
   z-index: 1;
 }
 
@@ -91,7 +91,7 @@
   width: 80%;
 }
 
-.two-columns { 
+.two-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,7 +141,7 @@
 .section-title_center {
   width: 60%;
   text-align: center;
-  margin: auto; 
+  margin: auto;
 }
 
 .section-title {
@@ -311,7 +311,6 @@
 }
 
 .footer_column_content_info {
-  
 }
 
 .footer_column-heading {
@@ -322,7 +321,6 @@
 }
 
 .footer_column_content_social {
-  
 }
 
 .footer_column-links {
