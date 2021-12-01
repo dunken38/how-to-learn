@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  overflow-x: hidden;
 }
 
 /*Первая секция - Научиться учиться*/
@@ -23,22 +22,23 @@
 
 .logo {
   width: 183px;
-  height: 32px;
   background-size: cover;
 }
 
 .logo_place_header {
   position: absolute;
+  height: 32px;
   top: 30px;
+  left: 64px;
   background-image: url("../images/logo_place_header.svg");
-  margin-left: 64px;
 }
 
 .header__title {
   line-height: 96px;
   font-weight: bold;
   font-size: 102px;
-	width: 730px;
+	max-width: 730px;
+  width: 100%;
   z-index: 2;
   margin-left: 64px;
 }
@@ -58,6 +58,10 @@
 .header__link {
   text-decoration: none;
   color:  #2f80ed;
+}
+
+.header__link:hover {
+  text-decoration: underline;
 }
 
 .header__main-illustration {
@@ -91,7 +95,6 @@
 
 .two-columns {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -128,8 +131,7 @@
 
 /*Третья секция - Цифры и факты*/
 .digits {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px 0;
   margin-left: auto;
   margin-right: auto;
   
@@ -229,6 +231,10 @@
   text-decoration: none;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 /*Пятая секция - Принципы обучения Кауфмана*/
 .kaufman {
   margin-left: auto;
@@ -236,7 +242,6 @@
   overflow: hidden;
   position: relative;
   background-color: #1f1f1f;
-  z-index: -2;
 }
 
 .kaufman__triangle {
@@ -246,7 +251,6 @@
   right: -210px;
   width: 877px;
   height: 877px;
-  z-index: -1;
 }
 
 .section-title_theme_dark{
@@ -261,13 +265,21 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .table_theme_dark {
   margin-bottom: 90px;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
 }
 
 /*Шестая секция - Футер*/
@@ -294,7 +306,6 @@
 }
 
 .logo__place_footer {
-  width: 183px;
   height: 35px;
   background-size: cover;
   background-image: url("../images/logo_place_footer.svg");
@@ -308,17 +319,12 @@
   font-size: 18px;
 }
 
-.footer__column_content_info {
-}
-
 .footer__column-heading {
+  margin:0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-.footer__column_content_social {
 }
 
 .footer__column-links {
@@ -332,6 +338,10 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  color:bisque;
 }
 
 .footer__social-icon {
