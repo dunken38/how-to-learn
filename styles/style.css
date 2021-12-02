@@ -37,7 +37,7 @@
   line-height: 96px;
   font-weight: bold;
   font-size: 102px;
-	max-width: 730px;
+  max-width: 730px;
   width: 100%;
   z-index: 2;
   margin-left: 64px;
@@ -131,10 +131,7 @@
 
 /*Третья секция - Цифры и факты*/
 .digits {
-  margin: 100px 0;
-  margin-left: auto;
-  margin-right: auto;
-  
+  margin: 100px auto; 
 }
 
 .section-title {
@@ -305,7 +302,7 @@
   position:relative;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   height: 35px;
   background-size: cover;
   background-image: url("../images/logo_place_footer.svg");
