@@ -4,5 +4,6 @@
 }
 
 .footer__column-link:hover {
-  color:bisque;
+  opacity: 60%;
+  transition: opacity .2s linear;
 }
